@@ -14,7 +14,7 @@ un = linked.country.unique()
 #Counting the unique values
 cu = linked.country.value_counts()
 
-#Subtrating the prices from the mean price.
+#Subtrating the prices from the mean of price.
 meanp = linked.points.mean()
 def change(points):
     linked.points - meanp
