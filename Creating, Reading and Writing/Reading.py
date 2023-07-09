@@ -5,3 +5,4 @@ linked = pd.read_csv('C:\\Users\\arnol\\OneDrive\\Desktop\\Kaggle-Data-Analysis\
 
 # Print the first few rows of the DataFrame
 print(linked.head())
+print()
